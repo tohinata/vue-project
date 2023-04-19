@@ -7,7 +7,7 @@
     <router-link to="/dataBindinglist">Data Binding List</router-link> |
     <router-link to="/renderingvif">렌더링 문법 (v-if)</router-link> |
     <router-link to="/eventclick">이벤트 처리 (v-on)</router-link> |
-    
+    <router-link to="/computedtest">Computed 테스트</router-link> |    
   </nav>
   <router-view/>
 </template>
