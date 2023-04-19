@@ -106,7 +106,18 @@ const routes = [
     path: '/computedtest',
     name: 'ComputedTest',
     component: () => import( /* webpackChunkName: "computedtest" */ '../views/ComputedTest.vue')
+  },
+  {
+    path: '/watchtest',
+    name: 'WatchTest',
+    component: () => import( /* webpackChunkName: "watchtest" */ '../views/WatchTest.vue')
+  },
+  {
+    path: '/watch2test',
+    name: 'Watch2Test',
+    component: () => import( /* webpackChunkName: "watch2test" */ '../views/Watch2Test.vue')
   }
+  
 ]
 
 const router = createRouter({
