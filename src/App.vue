@@ -6,6 +6,7 @@
     <router-link to="/databindinghtml">Data Binding HTML</router-link> |
     <router-link to="/dataBindinglist">Data Binding List</router-link> |
     <router-link to="/renderingvif">렌더링 문법 (v-if)</router-link> |
+    <router-link to="/eventclick">이벤트 처리 (v-on)</router-link> |
     
   </nav>
   <router-view/>
