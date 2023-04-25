@@ -32,7 +32,7 @@ created() {
 },
 methods: {
   async getList() {
-    this.productList = await this.$api("https://ccd72c11-cd5e-4914-8724-7beb035fc953.mock.pstmn.io/list","get");
+    this.productList = await this.$api("https://5895d062-610d-411c-b121-ead523f4da72.mock.pstmn.io/list","get");
   }
 }
 }
