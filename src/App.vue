@@ -11,6 +11,7 @@
     <router-link to="/computedtest">Computed 테스트</router-link> |
     <router-link to="/watchtest">Watch 테스트</router-link> |
     <router-link to="/watch2test">Watch2 테스트</router-link> |
+    <router-link to="/nestedcomponent">컴포넌트 심화</router-link> |
   </nav>
   <router-view/>
 </template>

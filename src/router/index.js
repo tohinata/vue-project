@@ -121,8 +121,12 @@ const routes = [
     path: '/watch2test',
     name: 'Watch2Test',
     component: () => import( /* webpackChunkName: "watch2test" */ '../views/Watch2Test.vue')
-  }
-  
+  },
+  {
+    path: '/nestedcomponent',
+    name: 'NestedComponent',
+    component: () => import( /* webpackChunkName: "nestedcomponent" */ '../views/NestedComponent.vue')
+  }  
 ]
 
 const router = createRouter({
